@@ -1,4 +1,5 @@
-# Strobe Web
+
+                    # Strobe Web
 
 Strobe is a platform for sharing photos with family and friends. It was developed for CAB432 Cloud Computing at the Queensland University of Technology, forked from an open-source Instagram-clone frontend by [@yassinjouao](https://github.com/yassinjouao).
 
@@ -129,3 +130,4 @@ src/
 ## License
 
 MIT — see `LICENSE.md`.
+                    
