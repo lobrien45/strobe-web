@@ -69,7 +69,7 @@ A stored runtime override takes priority over `.env` while the app is running. C
 
 ## Authentication
 
-Auth state is managed by `AuthContext` (`src/contexts/AuthContext/AuthContext.jsx`), using a reducer with two actions:
+Auth state is managed by `UserContext` (`src/contexts/AuthContext/UserContext.jsx`), using a reducer with two actions:
 
 - `LOGIN_SUCCESS` — stores the logged-in user and auth token, persisted to `localStorage` (`strobe_user`, `strobe_token`).
 - `LOGOUT` — clears user and token from both state and `localStorage`.
