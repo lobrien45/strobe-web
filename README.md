@@ -1,4 +1,5 @@
-# Strobe Web
+                    ---
+                    # Strobe Web
 
 Strobe is a platform for sharing photos with family and friends. It was developed for CAB432 Cloud Computing at the Queensland University of Technology, forked from an open-source Instagram-clone frontend by [@yassinjouao](https://github.com/yassinjouao).
 
@@ -119,13 +120,7 @@ src/
 
 ## Known Issues / Limitations
 
-- N/A
-
-## Authors
-
-- [@yassinjouao](https://github.com/yassinjouao) — original `instagram-clone-frontend`
-- Jackson Riding, QUT CAB432 staff
-
-## License
-
-MIT — see `LICENSE.md`.
+- **Environment Variable Naming:** The documentation references `VITE_API_BASE_URL` but the project uses Vite, which requires environment variables to start with `VITE_`. However, the `.env.example` file might not explicitly show this prefix, causing confusion. Ensure `.env.example` includes the correct `VITE_API_BASE_URL` variable and update documentation if backend proxying changes the effective variable name.
+- **Missing Version Constraints in Prerequisites:** The prerequisites state Node.js v24+ and npm v11+ but do not specify upper bounds or compatibility notes. Add tested version ranges (e.g., Node.js 24.x LTS, npm 11.x) and note any known incompatibilities with newer versions to prevent setup issues.
+- **Incomplete Known Issues Section:** The Known Issues section currently states "N/A" but the project likely has limitations such as lack of image optimization, limited mobile responsiveness in certain components, or missing accessibility labels. Replace "N/A" with specific, documented limitations or confirm the section is accurate if no issues exist.
+                    ---
