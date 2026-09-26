@@ -12,6 +12,7 @@ Strobe is a platform for sharing photos with family and friends. It was develope
 - Search for other users
 - A "Moments" feature alongside the main feed
 - Configurable backend API endpoint, switchable at runtime without a rebuild
+- Integration with Instagram API to be used as an alternative client
 
 ## Tech Stack
 
