@@ -12,7 +12,6 @@ Strobe is a platform for sharing photos with family and friends. It was develope
 - Search for other users
 - A "Moments" feature alongside the main feed
 - Configurable backend API endpoint, switchable at runtime without a rebuild
-- Integration with Instagram API to be used as an alternative client
 
 ## Tech Stack
 
@@ -87,7 +86,7 @@ Defined in `src/App.jsx`. All routes redirect to `/login` if there is no authent
 | `/login` | `Login` | Redirects to `/` if already logged in
 | `/register` | `Signup` | Redirects to `/` if already logged in
 | `/profile/:userId` | `Profile` | Requires auth
-| `*` (any other path) | — | Redirects to `/` |
+| `*` (any other path) | — | Redirects to `/`
 
 ## Project Structure
 
@@ -133,4 +132,3 @@ src/
 ## License
 
 MIT — see `LICENSE.md`.
-
