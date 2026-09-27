@@ -119,10 +119,6 @@ src/
         └── Profile.jsx               # User profile page
 ```
 
-## Known Issues / Limitations
-
-[Add known limitations here once issues are seeded, so this section stays consistent with the issue tracker.]
-
 ## Authors
 
 - [@yassinjouao](https://github.com/yassinjouao) — original `instagram-clone-frontend`
