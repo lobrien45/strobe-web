@@ -7,8 +7,10 @@ Strobe is a platform for sharing photos with family and friends. It was develope
 - User authentication (login / signup)
 - A home feed of posts from followed users
 - Creating and sharing photo posts ("Share")
+- Moments: A core feature for sharing temporary image posts with captions, viewing stories in a viewer interface, and managing archived moments
 - Viewing an individual post in detail ("ShowPost")
 - User profiles
+- Search for other users
 
 ## Tech Stack
 
