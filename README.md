@@ -6,11 +6,11 @@ Strobe is a platform for sharing photos with family and friends. It was develope
 
 - User authentication (login / signup)
 - A home feed of posts from followed users
-- Creating and sharing photo posts ("Share")
-- Viewing an individual post in detail ("ShowPost")
+- Creating and sharing photo posts ('Share')
+- Viewing an individual post in detail ('ShowPost')
 - User profiles
 - Search for other users
-- A "Moments" feature alongside the main feed
+- A 'Moments' feature alongside the main feed, allowing users to share temporary posts with captions, view them in a stories-like interface, and manage them via feed or archive tabs.
 
 ## Tech Stack
 
@@ -85,7 +85,7 @@ Defined in `src/App.jsx`. All routes redirect to `/login` if there is no authent
 | `/login` | `Login` | Redirects to `/` if already logged in
 | `/register` | `Signup` | Redirects to `/` if already logged in
 | `/profile/:userId` | `Profile` | Requires auth
-| `*` (any other path) | — | Redirects to `/` |
+| `*` (any other path) | — | Redirects to `/`
 
 ## Project Structure
 
